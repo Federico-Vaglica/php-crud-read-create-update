@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/federicov/php/29-9/php-crude/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /Users/federicov/php/29-9/php-crude/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/federicov/php/29-9/php-crud-read-create-update/php-crude/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /Users/federicov/php/29-9/php-crud-read-create-update/php-crude/src/app.scss */"./src/app.scss");
 
 
 /***/ })
