@@ -26,8 +26,9 @@ include __DIR__ .'/partials/home/server.php';
                     <td>
                         <form class='' action="partials/delete/server.php" method="post">
                             <input type="submit" value="DELETE" class='btn-danger'>
+                            <input type="hidden" name="id" value="<?php echo $room['id']; ?>">
                         </form>
-                        <input type="hidden" name="id" value="<?php echo $room['id']; ?>">
+                        
                     </td>
                 </tr>
                 <?php }?>
