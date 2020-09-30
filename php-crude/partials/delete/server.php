@@ -14,7 +14,7 @@ $id = $_POST['id'];
 $stmt -> EXECUTE();
 
 
-if($stmt){
+if($stmt && $stmt->affected_rows > 0){
     header("Location: $basepath/index.php?roomId=$id");
 } else {
     echo 'non ho cancellato';
