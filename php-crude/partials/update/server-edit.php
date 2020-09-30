@@ -20,3 +20,5 @@ if($stmt && $stmt->affected_rows > 0){
     die('errore');
 }
 
+$conn->close();
+
