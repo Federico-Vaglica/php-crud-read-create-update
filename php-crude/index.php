@@ -4,6 +4,12 @@ include __DIR__ .'/partials/home/server.php';
 ?>
 
     <div class='container'>
+        <?php if(!empty($_GET['roomId'])) {
+        $stanza_cancellata = $_GET['roomId'];?>
+            <div class='alert alert-warning'>
+                <?php echo "Hai cancellato la stanza numero $stanza_cancellata;"?>
+            </div>
+        <?php }?>
         <table class='table'>
             <thead>
                 <tr>

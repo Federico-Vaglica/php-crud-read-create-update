@@ -11,7 +11,7 @@ $sql = "DELETE FROM stanze WHERE id = $id";
 $result = $conn->query($sql);
 
 if($result){
-    echo 'ok';
+    header("Location: $basepath/index.php?roomId=$id");
 } else {
     echo 'non ho cancellato';
 }
