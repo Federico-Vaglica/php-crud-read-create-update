@@ -2,7 +2,7 @@
 include __DIR__ .'/partials/templates/header.php' ;
 include __DIR__ .'/partials/home/server.php';
 ?>
-<body>
+
     <div class='container'>
         <table class='table'>
             <thead>
@@ -35,6 +35,6 @@ include __DIR__ .'/partials/home/server.php';
             </tbody>
         </table>
     </div>
-    
+    </div>
 </body>
 </html>
