@@ -1,10 +1,9 @@
 <?php
 include __DIR__ .'/partials/templates/header.php' ;
-
 ?>
 
 <div class="container p-3">
-    <form action="partials/update/server-edit.php" method="post">
+    <form action="partials/create/server.php" method="post">
         <div class="form-group">
             <label for="roomNumber">Numero della stanza</label>
             <input type="text" class="form-control" name="roomNumber"  id="roomNumber">
