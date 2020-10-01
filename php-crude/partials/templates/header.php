@@ -20,6 +20,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
             <a class="nav-link active" href="index.php">STANZE <span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="create.php.php">Inserisci una nuova stanza <span class="sr-only">(current)</span></a>
+
         </div>
         </div>
     </nav>
