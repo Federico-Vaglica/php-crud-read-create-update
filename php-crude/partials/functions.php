@@ -60,4 +60,21 @@ function createRoom($conn,$table,$basepath){
     $stmt->close();
     $conn->close();
 }
+
+function getID($conn,$table,$id){
+    $sql = "SELECT * FROM $table WHERE id = $id";
+    $result = $conn->query($sql);
+
+    if ($result && $result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        
+        } elseif ($result) {
+            $row="";
+        } else {
+            $row = false;
+        }
+        
+        $conn->close();
+        return $row;
+    }
 ?>
