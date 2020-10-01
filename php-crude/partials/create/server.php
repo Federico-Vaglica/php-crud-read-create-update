@@ -14,7 +14,7 @@ if(empty($_POST['beds'])){
 }
 
 
-$sql = "INSERT INTO stanze (room_number,floor,beds,created_at,update_at) VALUES(?,?,?,NOW(),NOW())"; 
+$sql = "INSERT INTO stanze (room_number,floor,beds,created_at,updated_at) VALUES(?,?,?,NOW(),NOW())"; 
 
 $stmt = $conn->prepare($sql);
 
